@@ -30,7 +30,20 @@ modules:
   - type: script
     scripts:
         - b43.sh
-        
+
+  - type: fonts
+    fonts:
+    nerd-fonts:
+        - FiraCode
+        - Hack
+        - SourceCodePro
+        - Terminus
+        - JetBrainsMono
+        - NerdFontsSymbolsOnly
+    google-fonts:
+        - Roboto
+        - Open Sans
+    
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
