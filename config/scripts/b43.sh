@@ -6,5 +6,5 @@
 set -oue pipefail
 
 # Your code goes here.
-echo 'This is an example shell script'
-echo 'Scripts here will run during build if specified in recipe.yml'
+wget https://ziply.mm.fcix.net/rpmfusion/nonfree/fedora/tainted/39/x86_64/b/b43-firmware-6.30.163.46-12.fc39.noarch.rpm
+rpm-ostree install b43-firmware-6.30.163.46-12.fc39.noarch.rpm
