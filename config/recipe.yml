@@ -21,6 +21,8 @@ modules:
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
        - micro
+       - btop
+       - pipx
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
