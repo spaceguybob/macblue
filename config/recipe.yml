@@ -29,6 +29,7 @@ modules:
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
   - type: script
     scripts:
+        - cachyos.sh
         - b43.sh
 
   - type: fonts
