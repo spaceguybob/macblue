@@ -18,7 +18,8 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    repos:  - https://terra.fyralabs.com/terra.repo
+    repos:  
+       - https://terra.fyralabs.com/terra.repo
     install:
        - prismlauncher-nightly
        - micro
