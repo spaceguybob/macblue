@@ -25,6 +25,7 @@ modules:
        - micro
        - btop
        - pipx
+       - fish
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
