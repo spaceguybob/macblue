@@ -14,7 +14,6 @@ modules:
 install:
       - ublue-update # https://github.com/ublue-os/ublue-update
       - laptop
-      - 
   - type: files
     files:
       - usr: /usr
