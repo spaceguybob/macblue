@@ -9,6 +9,7 @@ set -oue pipefail
 git clone https://github.com/arunanshub/preload.git
 cd preload/
 
+sudo rpm-ostree install meson ninja-build
 sudo meson build --prefix=/usr
 sudo ninja -C build
 sudo ninja install
