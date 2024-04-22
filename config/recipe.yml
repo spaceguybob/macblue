@@ -10,6 +10,11 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: bling
+install:
+      - ublue-update # https://github.com/ublue-os/ublue-update
+      - laptop
+      - 
   - type: files
     files:
       - usr: /usr
@@ -18,8 +23,9 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    repos:  - https://terra.fyralabs.com/terra.repo
     install:
+       - prismlauncher-nightly
        - micro
        - btop
        - pipx
