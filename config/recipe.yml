@@ -31,7 +31,6 @@ modules:
     scripts:
         - cachyos.sh
         - b43.sh
-        - preload.sh
 
   - type: fonts
     fonts:
