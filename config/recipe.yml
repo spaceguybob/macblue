@@ -52,6 +52,7 @@ modules:
     google-fonts:
         - Roboto
         - Open Sans
+        - Fira Sans
     
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
