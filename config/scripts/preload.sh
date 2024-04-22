@@ -9,6 +9,6 @@ set -oue pipefail
 git clone https://github.com/arunanshub/preload.git
 cd preload/
 
-meson build --prefix=/usr
-ninja -C build
-ninja install
+sudo meson build --prefix=/usr
+sudo ninja -C build
+sudo ninja install
