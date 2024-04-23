@@ -60,14 +60,14 @@ modules:
 
   - type: fonts
     fonts:
-    nerd-fonts:
+      nerd-fonts:
         - FiraCode
         - Hack
         - SourceCodePro
         - Terminus
         - JetBrainsMono
         - NerdFontsSymbolsOnly
-    google-fonts:
+      google-fonts:
         - Roboto
         - Open Sans
         - Fira Sans
