@@ -34,6 +34,8 @@ modules:
        - android-tools
        - android-file-transfer
        - checkrain
+       - cutefetch
+       - fastfetch
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
