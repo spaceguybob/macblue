@@ -41,6 +41,7 @@ modules:
        - mozilla-fira-sans-fonts
        - xfce4-terminal
        - pfetch-rs
+       - nohang
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
