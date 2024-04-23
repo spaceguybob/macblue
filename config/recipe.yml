@@ -50,6 +50,7 @@ modules:
     scripts:
         - tela.sh
         - b43.sh
+        - fonts.sh
   - type: bling
     install:
       - ublue-update # https://github.com/ublue-os/ublue-update
