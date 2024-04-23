@@ -26,6 +26,12 @@ modules:
        - btop
        - pipx
        - fish
+       - idevicerestore
+       - libimobiledevice
+       - libirecovery
+       - ifuse
+       - android-tools
+       - android-file-transfer
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
