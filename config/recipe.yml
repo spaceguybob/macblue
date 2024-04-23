@@ -19,6 +19,7 @@ modules:
 
   - type: rpm-ostree
     repos:  
+       - https://download.opensuse.org/repositories/home:/Alxhr0/Fedora_39/home:Alxhr0.repo
        - https://terra.fyralabs.com/terra.repo
     install:
        - prismlauncher-nightly
@@ -32,6 +33,7 @@ modules:
        - ifuse
        - android-tools
        - android-file-transfer
+       - checkrain
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
