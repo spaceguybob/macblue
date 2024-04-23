@@ -9,4 +9,9 @@ set -oue pipefail
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraMono.zip
 sudo rpm-ostree install unzip
 unzip FiraMono.zip -d Fira
-cp ./* /usr/share/fonts/
+sudo cp Fira/ -r /usr/share/fonts/
+
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/NerdFontsSymbolsOnly.zip
+unzip NerdFontsSymbolsOnly.zip -d nerd
+sudo cp nerd/ -r /usr/share/fonts/
