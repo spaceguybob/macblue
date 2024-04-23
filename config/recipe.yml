@@ -19,6 +19,7 @@ modules:
 
   - type: rpm-ostree
     repos:  
+       - https://copr.fedorainfracloud.org/coprs/elxreno/preload/repo/fedora-39/elxreno-preload-fedora-39.repo
        - https://download.opensuse.org/repositories/home:/Alxhr0/Fedora_39/home:Alxhr0.repo
        - https://terra.fyralabs.com/terra.repo
     install:
