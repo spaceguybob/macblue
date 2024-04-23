@@ -38,6 +38,8 @@ modules:
        - cutefetch
        - fastfetch
        - preload
+       - mozilla-fira-sans-fonts
+       - 
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
