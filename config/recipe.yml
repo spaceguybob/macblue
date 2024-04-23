@@ -39,6 +39,7 @@ modules:
        - fastfetch
        - preload
        - mozilla-fira-sans-fonts
+       - xfce4-terminal
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
