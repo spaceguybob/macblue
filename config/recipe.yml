@@ -36,6 +36,7 @@ modules:
        - checkrain
        - cutefetch
        - fastfetch
+       - preload
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
